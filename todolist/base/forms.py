@@ -4,4 +4,4 @@ from .models import Tarefa
 class CriarTarefaForm(ModelForm):
     class Meta:
         model = Tarefa
-        fields = '__all__'
+        fields = ['titulo', 'descrição']
